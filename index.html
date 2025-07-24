@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/aihealth/assets/aihealth-logo-small-DAbDKRgS.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>AIHealth</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" crossorigin src="/aihealth/assets/index-BbvbSbWQ.js"></script>
+  </head>
+    
+  <body>
+
+    <header>
+      <div class="wrapper">
+        <a class="logo" href="#home">
+          <img src="data:image/png;base64,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" alt="aihealth logo">
+        </a>
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="profile-buttons">
+          <a class="sign-up-button" href="#">Sign up</a>
+          <button class="log-in-button blue-button">Log In</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <div class="wrapper">
+          <div class="home-info">
+            <h1>Unlock your potential with <span class="gradient-text">specialized resources!</span></h1>
+            <img src="/aihealth/assets/doctor-image-TAnlUgq1.png" alt="Doctor imagae">
+            <p>Explore Smart Tools for your study, practice and professional advancement. Discover your future in healthcare, now within your reach at AIHEALTH</p>
+            <div class="home-info-buttons">
+              <button class="white-button">Login</button>
+              <button class="blue-button">Sign up</button>
+            </div>
+          </div>
+          <div class="home-picture">
+            <img src="/aihealth/assets/doctor-image-TAnlUgq1.png" alt="Doctor imagae">
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" id="benefits">
+        <div class="wrapper">
+          <div class="benefit">
+            <div>
+              <img src="data:image/svg+xml,%3csvg%20width='33'%20height='33'%20viewBox='0%200%2033%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_53_313)'%3e%3cpath%20d='M21.2385%209.21295L19.1182%2010.4367C18.5502%209.94896%2017.8978%209.56917%2017.1932%209.31608V6.87545H13.0682V9.31745C12.3636%209.57055%2011.7112%209.95034%2011.1432%2010.4381L9.01197%209.21295L6.94947%2012.788L9.05185%2014.0021C8.89966%2014.7442%208.89966%2015.5095%209.05185%2016.2516L6.94947%2017.463L9.01197%2021.038L11.1322%2019.8142C11.7002%2020.3019%2012.3526%2020.6817%2013.0572%2020.9348V23.3755H17.1822V20.9335C17.8868%2020.6804%2018.5392%2020.3006%2019.1072%2019.8128L21.2275%2021.0366L23.29%2017.4616L21.1876%2016.2475C21.3398%2015.5053%2021.3398%2014.7401%2021.1876%2013.998L23.301%2012.788L21.2385%209.21295ZM15.1252%2017.188C14.7173%2017.188%2014.3185%2017.067%2013.9794%2016.8404C13.6402%2016.6137%2013.3758%2016.2916%2013.2197%2015.9147C13.0636%2015.5379%2013.0228%2015.1232%2013.1024%2014.7231C13.1819%2014.323%2013.3784%2013.9555%2013.6668%2013.667C13.9553%2013.3786%2014.3228%2013.1822%2014.7228%2013.1026C15.1229%2013.023%2015.5376%2013.0638%2015.9145%2013.22C16.2914%2013.3761%2016.6135%2013.6404%2016.8401%2013.9796C17.0668%2014.3188%2017.1877%2014.7175%2017.1877%2015.1255C17.1877%2015.6725%2016.9704%2016.1971%2016.5836%2016.5839C16.1968%2016.9707%2015.6722%2017.188%2015.1252%2017.188ZM32.8228%2017.0395C32.5162%2016.352%2032.2096%2015.6411%2031.903%2014.9343C30.7301%2011.8224%2029.1981%208.85804%2027.338%206.10133C25.6391%203.82378%2023.3352%202.06869%2020.6883%201.03569C18.0414%200.00268433%2015.1577%20-0.266769%2012.3653%200.257974C9.57279%200.782717%206.98363%202.08059%204.89226%204.00398C2.80089%205.92738%201.29127%208.39908%200.535095%2011.138C-0.10003%2013.5016%20-0.14883%2015.9845%200.392929%2018.3712C0.934688%2020.758%202.05064%2022.9765%203.64397%2024.8343C3.95304%2025.2017%204.12335%2025.666%204.12522%2026.1461V33.0005H23.3752V28.8755H24.6031C25.7644%2028.8714%2026.8854%2028.4491%2027.7609%2027.686C28.6363%2026.923%2029.2076%2025.8701%2029.3702%2024.7202L29.8377%2021.313H33.0002V17.4396L32.8228%2017.0395ZM26.2435%2017.188L25.281%2024.1565C25.2582%2024.3221%2025.1759%2024.4739%2025.0493%2024.5832C24.9228%2024.6925%2024.7607%2024.752%2024.5935%2024.7505H19.2502V28.8755H8.25022V26.1461C8.24745%2024.6997%207.73807%2023.3%206.8106%2022.1902C5.64512%2020.8384%204.82707%2019.2226%204.42741%2017.483C4.02774%2015.7435%204.05853%2013.9327%204.5171%2012.2077C5.07509%2010.21%206.18352%208.40939%207.71584%207.01146C9.24817%205.61353%2011.1427%204.67459%2013.1831%204.30181C15.2235%203.92902%2017.3276%204.13742%2019.2552%204.90322C21.1829%205.66901%2022.8564%206.96134%2024.0847%208.6327C25.7088%2011.1291%2027.0613%2013.792%2028.119%2016.5761L28.3843%2017.1866L26.2435%2017.188Z'%20fill='url(%23paint0_linear_53_313)'/%3e%3c/g%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_53_313'%20x1='16.51'%20y1='-0.00317383'%20x2='16.51'%20y2='33.0005'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2338B6FF'/%3e%3cstop%20offset='1'%20stop-color='%23ABBFD7'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_53_313'%3e%3crect%20width='33'%20height='33'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="Efficiency benefit icon">
+            </div>
+            <h4>Efficiency</h4>
+            <p>Enjoy unprecedented efficiency in your daily practice with our intuitive and intelligent platform.</p>
+            <a href="#">Start</a>
+          </div>
+          <div class="benefit">
+            <div>
+              <img src="data:image/svg+xml,%3csvg%20width='33'%20height='33'%20viewBox='0%200%2033%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.5%201.37476C13.0068%201.37327%209.60407%202.48556%206.78619%204.55004C3.96831%206.61453%201.88204%209.52368%200.830467%2012.8549C-0.221105%2016.186%20-0.183206%2019.7657%200.938657%2023.0739C2.06052%2026.3821%204.20791%2029.2464%207.06887%2031.2508L7.60099%2031.6248H25.399L25.9311%2031.2508C28.7921%2029.2464%2030.9395%2026.3821%2032.0613%2023.0739C33.1832%2019.7657%2033.2211%2016.186%2032.1695%2012.8549C31.118%209.52368%2029.0317%206.61453%2026.2138%204.55004C23.3959%202.48556%2019.9932%201.37327%2016.5%201.37476V1.37476ZM24.0625%2027.4998H8.93749C6.91503%2025.9243%205.43508%2023.7566%204.7043%2021.2993C3.97353%2018.842%204.02842%2016.2178%204.86132%2013.7933C5.69422%2011.3687%207.26353%209.26473%209.35011%207.77526C11.4367%206.28578%2013.9363%205.48514%2016.5%205.48514C19.0637%205.48514%2021.5633%206.28578%2023.6499%207.77526C25.7365%209.26473%2027.3058%2011.3687%2028.1387%2013.7933C28.9716%2016.2178%2029.0265%2018.842%2028.2957%2021.2993C27.5649%2023.7566%2026.085%2025.9243%2024.0625%2027.4998V27.4998ZM19.2349%2017.9834C19.2168%2018.5122%2019.0465%2019.0246%2018.7444%2019.4591C18.4424%2019.8936%2018.0214%2020.2317%2017.5319%2020.4329C17.0425%2020.634%2016.5054%2020.6897%2015.9851%2020.5932C15.4648%2020.4968%2014.9834%2020.2522%2014.5986%2019.889C14.2139%2019.5257%2013.9421%2019.0591%2013.8159%2018.5453C13.6896%2018.0314%2013.7144%2017.492%2013.8871%2016.9918C14.0598%2016.4916%2014.3731%2016.0519%2014.7895%2015.7253C15.2059%2015.3988%2015.7077%2015.1993%2016.2346%2015.1509L21.1846%2010.194L24.101%2013.1104L19.2349%2017.9834ZM13.3457%2022.3738L10.9739%2025.7508C9.17319%2024.5025%207.85337%2022.6761%207.23337%2020.5746C6.61337%2018.473%206.73045%2016.2227%207.56517%2014.1969C8.3999%2012.1711%209.90212%2010.4915%2011.8226%209.43681C13.7431%208.38211%2015.9665%208.01566%2018.1239%208.39826L12.3874%2014.2599C11.873%2014.8361%2011.4869%2015.515%2011.2546%2016.2517C11.0224%2016.9884%2010.9494%2017.766%2011.0404%2018.533C11.1314%2019.3001%2011.3844%2020.039%2011.7825%2020.7009C12.1807%2021.3628%2012.7149%2021.9325%2013.3499%2022.3724L13.3457%2022.3738ZM26.125%2017.8748C26.1228%2019.4199%2025.7493%2020.9419%2025.036%2022.3126C24.3226%2023.6832%2023.2904%2024.8624%2022.0261%2025.7508L19.6542%2022.3738C20.0887%2022.0685%2025.9572%2016.1258%2025.9572%2016.1258C26.0669%2016.7023%2026.1231%2017.2878%2026.125%2017.8748V17.8748Z'%20fill='url(%23paint0_linear_55_389)'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_55_389'%20x1='16.5'%20y1='1.37476'%20x2='16.5'%20y2='31.6248'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%233695D9'/%3e%3cstop%20offset='1'%20stop-color='%23C4B4B8'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="Practicality benefit icon">
+            </div>
+            <h4>Practicality</h4>
+            <p>Access anywhere, anytime with the versatility of mobile devices.</p>
+            <a href="#">Start</a>
+          </div>
+          <div class="benefit">
+            <div>
+              <img src="data:image/svg+xml,%3csvg%20width='33'%20height='33'%20viewBox='0%200%2033%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_55_402)'%3e%3cpath%20d='M16.4136%2010.2332C17.1373%2010.2337%2017.8553%2010.3607%2018.5352%2010.6086L19.1828%2010.8437C18.731%209.99053%2018.0852%209.25531%2017.2974%208.69718C16.5096%208.13905%2015.6018%207.77359%2014.6471%207.6302C13.6923%207.4868%2012.7172%207.56948%2011.8003%207.87157C10.8833%208.17366%2010.05%208.68673%209.36742%209.36953C8.68485%2010.0523%208.17205%2010.8858%207.87026%2011.8029C7.56847%2012.7199%207.48612%2013.695%207.62983%2014.6497C7.77354%2015.6044%208.1393%2016.5121%208.69769%2017.2997C9.25608%2018.0873%209.99151%2018.7329%2010.8448%2019.1845L10.6111%2018.5396C10.2724%2017.6056%2010.1632%2016.6039%2010.2929%2015.619C10.4226%2014.634%2010.7873%2013.6947%2011.3562%2012.8802C11.9252%2012.0658%2012.6816%2011.4001%2013.5618%2010.9394C14.442%2010.4788%2015.4201%2010.2365%2016.4136%2010.2332Z'%20fill='url(%23paint0_linear_55_402)'/%3e%3cpath%20d='M4.12501%2013.75C4.14241%2011.333%205.06854%209.01107%206.71934%207.24558C8.37014%205.48009%2010.6248%204.40033%2013.0351%204.22087C15.4455%204.04142%2017.8352%204.7754%2019.7292%206.27697C21.6232%207.77854%2022.883%209.93775%2023.2581%2012.3255L27.5%2013.8655C27.5%2013.827%2027.5%2013.7885%2027.5%2013.75C27.5%2011.0305%2026.6936%208.37209%2025.1827%206.11091C23.6718%203.84974%2021.5244%202.08737%2019.0119%201.04666C16.4994%200.00595766%2013.7348%20-0.266338%2011.0675%200.264209C8.40028%200.794755%205.95026%202.10432%204.02729%204.02729C2.10432%205.95026%200.794755%208.40028%200.264209%2011.0675C-0.266338%2013.7348%200.00595766%2016.4994%201.04666%2019.0119C2.08737%2021.5244%203.84974%2023.6718%206.11091%2025.1827C8.37209%2026.6936%2011.0305%2027.5%2013.75%2027.5C13.7899%2027.5%2013.827%2027.5%2013.8669%2027.5L12.3269%2023.2636C10.0471%2022.9228%207.96529%2021.7751%206.46011%2020.0292C4.95494%2018.2833%204.12634%2016.0552%204.12501%2013.75Z'%20fill='url(%23paint1_linear_55_402)'/%3e%3cpath%20d='M32.9997%2018.7946L17.5997%2013.1997C16.9857%2012.9782%2016.3214%2012.9361%2015.6844%2013.0783C15.0474%2013.2205%2014.4641%2013.541%2014.0025%2014.0025C13.541%2014.4641%2013.2205%2015.0474%2013.0783%2015.6844C12.9361%2016.3214%2012.9782%2016.9857%2013.1997%2017.5997L18.7946%2032.9997L24.4389%2027.3622L30.0833%2032.9997L32.9997%2030.0833L27.3622%2024.4389L32.9997%2018.7946ZM17.5749%2017.5749L25.5018%2020.4624L20.4569%2025.5073L17.5749%2017.5749Z'%20fill='url(%23paint2_linear_55_402)'/%3e%3c/g%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_55_402'%20x1='13.372'%20y1='7.56177'%20x2='13.372'%20y2='19.1845'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%233697DC'/%3e%3cstop%20offset='1'%20stop-color='%23C5B7BA'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint1_linear_55_402'%20x1='13.75'%20y1='0'%20x2='13.75'%20y2='27.5'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%233697DC'/%3e%3cstop%20offset='1'%20stop-color='%23C5B7BA'/%3e%3c/linearGradient%3e%3clinearGradient%20id='paint2_linear_55_402'%20x1='22.9977'%20y1='12.9957'%20x2='22.9977'%20y2='32.9997'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%233697DC'/%3e%3cstop%20offset='1'%20stop-color='%23C5B7BA'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_55_402'%3e%3crect%20width='33'%20height='33'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="Speed benefit icon">
+            </div>
+            <h4>Speed</h4>
+            <p>Instant answers with AI algorithms that process data in real time.</p>
+            <a href="#">Start</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="wrapper">
+          <div class="about-image">
+            <img src="/aihealth/assets/chatgpt-icon-DfxMkgKV.svg" alt="ChatGPT icon">
+          </div>
+          <div class="about-info">
+            <h1 class="header-text">A smart platform that will <span class="gradient-text">revolutionize</span> your healthcare journey</h1>
+            <img src="/aihealth/assets/chatgpt-icon-DfxMkgKV.svg" alt="ChatGPT icon">
+            <p class="description-text">Each tool is designed to optimize your learning, enhance your practice, and advance your healthcare career.</p>
+            <button class="white-button">Learn more</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="app" id="app">
+        <div class="wrapper">
+          <h1 class="header-text">Where <span class="gradient-text">Artificial Intelligence</span> awakens potential in healthcare!</h1>
+          <div class="access-button">
+            <button class="blue-button">Access</button>
+            <span class="access-button-info">Get access to several free resources</span>
+          </div>
+          <div class="blur-app-image">
+            <img src="/aihealth/assets/app-home-image-B5QOrNV8.png" alt="Application home image" class="app-image">
+          </div>
+        </div>
+      </section>
+
+      <section class="plans" id="plans">
+        <div class="wrapper">
+          <h1 class="header-text">Plans and Subscriptions</h1>
+          <p class="description-text">Purchase our plan to enjoy the features of our platform and cancel at any time!</p>
+          <div class="switcher">
+            <div class="switcher-bg"></div>
+            <p class="switcher-option active">Month</p>
+            <p class="switcher-option">Year</p>
+          </div>
+          <div class="plans-block">
+            <div class="free-plan plan">
+              <div class="image-block"><img src="/aihealth/assets/free-plan-icon-C6-8-q4q.png" alt=""></div>
+              <h4 class="plan-title"></h4>
+              <ul>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Basic access to platform tools</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Access to introductory educational content</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Participation in up to 3 events and 3 webinars</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Customer Support</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />5.000 Tokens</li>
+              </ul>
+              <div class="price-block">
+                <div>
+                  <h2 class="cost-amount">$0,00</h2>
+                  <span class="cost-period">/month</span>
+                </div>
+                <button class="blue-button">Acquire</button>
+              </div>
+            </div>
+            <div class="premium-plan plan">
+              <div class="image-block"><img src="/aihealth/assets/premium-plan-icon-BTf00B9o.png" alt=""></div>
+              <h4 class="plan-title"></h4>
+              <ul>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Unlimited access to all tools</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Access to introductory educational content</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Unlimited participation in events and webinars</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Customer Support</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />50.000 Tokens</li>
+              </ul>
+              <div class="price-block">
+                <div>
+                  <h2 class="cost-amount">$29,90</h2>
+                  <span class="cost-period">/month</span>
+                </div>
+                <button class="blue-button">Acquire</button>
+              </div>
+            </div>
+            <div class="premium-pro plan">
+              <div class="image-block"><img src="/aihealth/assets/premium-pro-icon-Bj5WHxvz.png" alt=""></div>
+              <h4 class="plan-title"></h4>
+              <ul>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Unlimited access to all tools</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Access to introductory educational content</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Unlimited participation in events and webinars</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />Customer Support</li>
+                <li><img src="data:image/svg+xml,%3csvg%20width='32'%20height='33'%20viewBox='0%200%2032%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.962891'%20width='31.6319'%20height='31.0743'%20rx='10'%20fill='url(%23paint0_linear_99_532)'/%3e%3crect%20width='2.20553'%20height='7.71936'%20rx='1.10277'%20transform='matrix(0.727862%200.685724%20-0.727862%200.685724%2019.0266%2014.2317)'%20fill='white'/%3e%3crect%20width='2.20553'%20height='5.51383'%20rx='1.10277'%20transform='matrix(-0.727862%200.685724%20-0.727862%20-0.685724%2016.6187%2019.5249)'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_99_532'%20x1='15.816'%20y1='0.962891'%20x2='15.816'%20y2='32.0372'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%2332A3E5'/%3e%3cstop%20offset='1'%20stop-color='%23030410'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="" />500.000 Tokens</li>
+              </ul>
+              <div class="price-block">
+                <div>
+                  <h2 class="cost-amount">$89,90</h2>
+                  <span class="cost-period">/month</span>
+                </div>
+                <button class="blue-button">Acquire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="wrapper">
+          <div class="faq-info">
+            <h1 class="header-text">FAQ</h1>
+            <p class="description-text">Get your main questions answered and embark on the AIHEALTH journey with confidence.</p>
+          </div>
+          <div class="faq-questions">
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <p>What is AIHEALTH and how does it work?</p>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>Understand the wide range of benefits provided to AIHEALTH premium users: full and unlimited access to all the platform's advanced tools and resources, priority support, with faster response times and personalized assistance, exclusive and premium content and much more!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <p>Do I have to pay to use the platform?</p>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>Understand the wide range of benefits provided to AIHEALTH premium users: full and unlimited access to all the platform's advanced tools and resources, priority support, with faster response times and personalized assistance, exclusive and premium content and much more!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <p>Is there customer support if I have problems or questions?</p>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>Understand the wide range of benefits provided to AIHEALTH premium users: full and unlimited access to all the platform's advanced tools and resources, priority support, with faster response times and personalized assistance, exclusive and premium content and much more!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <p>Is the AIHEALTH platform regularly updated with new features?</p>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>Understand the wide range of benefits provided to AIHEALTH premium users: full and unlimited access to all the platform's advanced tools and resources, priority support, with faster response times and personalized assistance, exclusive and premium content and much more!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <p>What are the benefits of becoming a premium user of AIHEALTH?</p>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  <p>Understand the wide range of benefits provided to AIHEALTH premium users: full and unlimited access to all the platform's advanced tools and resources, priority support, with faster response times and personalized assistance, exclusive and premium content and much more!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <div class="news-subscription">
+          <a href="">
+            <img src="data:image/png;base64,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" alt="aihealth logo">
+          </a>
+          <p>Don't miss out on the latest news and exclusive tips! Subscribe to our newsletter now and stay ahead of the curve in the world of health and technology.<br><br>Receive updates, promotions, notices, news and more!</p>
+          <div class="email-input-block">
+            <input type="email" placeholder="Enter your Email">
+            <button type="submit" class="email-submit-btn">
+              <img src="data:image/svg+xml,%3csvg%20width='15'%20height='14'%20viewBox='0%200%2015%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.40909%202L13.5%207M13.5%207L8.40909%2012M13.5%207L1.5%207'%20stroke='%2332A3E5'%20stroke-width='2'%20stroke-linecap='square'/%3e%3c/svg%3e" alt="Submit arrow" />
+            </button>
+          </div>
+        </div>
+        <div class="footer-navigation">
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#plans">Plans</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="legal-info">
+          <p>Terms and Conditions</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies Policy</a>
+        </div>
+        <div class="social-media">
+          <p>Social media</p>
+          <div class="social-media-icons">
+            <a href="" class="ig-icon"><img src="/aihealth/assets/ig-icon-C0geDg5v.svg" alt="instagram icon"></a>
+            <a href="" class="fb-icon"><img src="/aihealth/assets/fb-icon-DCgEnrUt.svg" alt="facebook icon"></a>
+            <a href="" class="tt-icon"><img src="/aihealth/assets/tt-icon-CRkXUDtL.svg" alt="tiktok icon"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
